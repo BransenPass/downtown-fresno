@@ -42,17 +42,22 @@
         <main class="mainWidth">
             <!--PHOTO GALLERY STARTS HERE-->
             <figure class="galleryImages">
-                <a href="" title=""><img src="images/gallery-thumbs/dog-thumb.jpg" alt="" title="" /></a>
+                <a href="" title="" onclick="return popitup('images/gallery-large/dog-large.jpg')"><img src="images/gallery-thumbs/dog-thumb.jpg" alt="" title="" /></a>
                 <figcaption class="figNewton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quis.</figcaption>
             </figure>
             
             <figure class="galleryImages">
-                <a href="" title=""><img src="images/gallery-thumbs/HomelessDude-thumb.jpg" alt="" title="" /></a>
+                <a href="" title="" onclick="return popitup('images/gallery-large/HomelessDude-large.jpg')"><img src="images/gallery-thumbs/HomelessDude-thumb.jpg" alt="" title="" /></a>
                 <figcaption class="figNewton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quis.</figcaption>
             </figure>
             
             <figure class="galleryImages">
-                <a href="" title=""><img src="images/gallery-thumbs/trash-thumb.jpg" alt="" title="" /></a>
+                <a href="" title="" onclick="return popitup('images/gallery-large/trash-large.jpg')"><img src="images/gallery-thumbs/trash-thumb.jpg" alt="" title="" /></a>
+                <figcaption class="figNewton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quis.</figcaption>
+            </figure>
+            
+            <figure class="galleryImages">
+                <a href="" title="" onclick="return popitup('images/gallery-large/realHomeless-large.jpg')"><img src="images/gallery-thumbs/realHomeless-thumb.jpg" alt="" title="" /></a>
                 <figcaption class="figNewton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quis.</figcaption>
             </figure>
             <!--PHOTO GALLERY ENDS HERE-->
@@ -66,5 +71,15 @@
             </div>
             <p>&copy; 2015 Bransen Pass. All rights reserved. | Site by: <a href="https://www.linkedin.com/in/bransenpass" target="_blank" title="LinkedIn Profile">Bransen Pass</a></p>
         </footer>
+        
+        <script language="javascript" type="text/javascript">
+            <!--
+                function popitup(url) {
+	newwindow=window.open(url,'name','width=600,height=400');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+            // -->
+        </script>
     </body>
 </html>
